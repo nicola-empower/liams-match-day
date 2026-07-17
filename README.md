@@ -16,6 +16,7 @@
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets-Database-107c41?style=flat-square&logo=googlesheets&logoColor=white)
 ![License](https://img.shields.io/badge/License-Proprietary-C2185B?style=flat-square)
 
+
 </div>
 
 > [!IMPORTANT]
@@ -390,4 +391,9 @@ Empower Digital Solutions
 Building practical, user-centred systems with React, Google Workspace and automation.
 
 
-
+<p align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=nicola-empower-liams-match-day&label=Repository%20Views&color=e91e63&style=for-the-badge"
+    alt="Match Day page views"
+  />
+</p>
