@@ -15,6 +15,8 @@
 ![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-Backend-34A853?style=flat-square&logo=google&logoColor=white)
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets-Database-107c41?style=flat-square&logo=googlesheets&logoColor=white)
 ![License](https://img.shields.io/badge/License-Proprietary-C2185B?style=flat-square)
+![Views](https://github-tracker-blush.vercel.app/api/badge/liams-match-day)
+![Clones](https://github-tracker-blush.vercel.app/api/badge/liams-match-day?metric=clones)
 
 
 </div>
@@ -391,9 +393,4 @@ Empower Digital Solutions
 Building practical, user-centred systems with React, Google Workspace and automation.
 
 
-<p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=nicola-empower-liams-match-day&label=Repository%20Views&color=e91e63&style=for-the-badge"
-    alt="Match Day page views"
-  />
-</p>
+
