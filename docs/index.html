@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Liam's Match Day is a bespoke football-first Progressive Web App designed to support independence, health tracking, daily routines and carer visibility through dignity-first, accessible design.">
+  <meta name="theme-color" content="#031426">
+
+  <title>Liam's Match Day | A Football-First Independence Platform</title>
+
+  <meta property="og:title" content="Liam's Match Day">
+  <meta property="og:description" content="A football-first independence platform built around accessibility, dignity and real-world support.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/matchdayhero.png">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="site-brand" href="#top" aria-label="Liam's Match Day home">
+          <span class="site-brand__mark" aria-hidden="true">LFC</span>
+          <span class="site-brand__text">Liam's Match Day</span>
+        </a>
+
+        <ul class="nav-links" id="primary-navigation">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#philosophy">Philosophy</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#architecture">Architecture</a></li>
+          <li><a href="#accessibility">Accessibility</a></li>
+          <li><a href="#research">Research</a></li>
+        </ul>
+
+        <a class="nav-cta" href="https://github.com/nicola-empower/liams-match-day">View repository</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img
+          class="hero__image"
+          src="images/matchdayhero.png"
+          alt="Liam's Match Day football-themed independence platform shown across digital devices in a stadium setting."
+        >
+
+        <div class="container hero__content">
+          <div class="hero__eyebrow">Human-centred digital architecture</div>
+
+          <h1 id="hero-title">
+            Liam's Match Day
+            <span>Level Up Independence</span>
+          </h1>
+
+          <p class="hero__intro">
+            A bespoke football-first Progressive Web App that transforms daily routines,
+            health tracking and supported living into an age-appropriate experience built
+            around motivation, dignity and real life.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#overview">Explore the case study</a>
+            <a class="button button--secondary" href="https://github.com/nicola-empower/liams-match-day">
+              View the public repository
+            </a>
+          </div>
+
+          <div class="hero__principle">
+            <div>
+              <strong>Core principle:</strong>
+              Technology should adapt to people. Not the other way around.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-summary section--compact" aria-label="Project summary">
+        <div class="container project-summary__grid">
+          <div class="project-stat">
+            <span class="project-stat__label">Platform</span>
+            <span class="project-stat__value">Progressive Web App</span>
+          </div>
+
+          <div class="project-stat">
+            <span class="project-stat__label">Primary focus</span>
+            <span class="project-stat__value">Independent living</span>
+          </div>
+
+          <div class="project-stat">
+            <span class="project-stat__label">Architecture</span>
+            <span class="project-stat__value">Serverless Google Workspace</span>
+          </div>
+
+          <div class="project-stat">
+            <span class="project-stat__label">Design method</span>
+            <span class="project-stat__value">Passion-to-utility translation</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--white" id="overview">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-heading__eyebrow">Project overview</span>
+            <h2>A gamified independent living platform</h2>
+            <p>
+              Liam's Match Day was designed for a young adult navigating autism,
+              epilepsy, learning disabilities and right-sided hemiplegia.
+              It replaces the cold visual language of a care plan with an experience
+              grounded in football, familiarity and personal identity.
+            </p>
+          </div>
+
+          <div class="image-showcase image-frame--glow">
+            <img
+              src="images/liam_ui.png"
+              alt="Real Liam's Match Day interface showing fixtures, points, training tasks, schedule, weather, seizure tracking, team talk and pitch progress."
+              data-lightbox
+            >
+          </div>
+
+          <div class="article" style="margin-top: 3rem;">
+            <p class="lead">
+              The central problem was not a lack of available reminders or checklists.
+              It was the absence of a system Liam would genuinely want to open every day.
+            </p>
+
+            <p>
+              Standard independence tools often focus on compliance. They ask whether
+              medication was taken, whether a room was tidied, or whether an appointment
+              was attended. Liam's Match Day keeps those practical requirements, but
+              translates them into the language of football so the experience feels
+              personal rather than clinical.
+            </p>
+
+            <p>
+              Daily routines become Match Training. Medication becomes Training
+              Supplements. Chores move into Extra Time. Seizures are recorded as Red
+              Cards. Completed tasks build Performance Stats and a Transfer Budget that
+              can unlock trophies and real-world rewards.
+            </p>
+
+            <div class="callout">
+              <span class="callout__label">The design shift</span>
+              <p>
+                The platform starts with the question: what would make Liam want to use
+                this? It does not begin with the convenience of a service provider.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--navy" id="philosophy">
+        <div class="container">
+          <div class="editorial-grid">
+            <div class="editorial-grid__content">
+              <span class="section-heading__eyebrow">Football-first philosophy</span>
+              <h2>Speak the user's language</h2>
+
+              <p>
+                Football is not a decorative layer placed over a generic task manager.
+                It is the organising language of the product. The terminology, progress
+                model, rewards, visual feedback and motivational prompts all connect
+                essential routines to something Liam already values.
+              </p>
+
+              <p>
+                This approach can be described as <strong>passion-to-utility translation</strong>:
+                mapping practical, educational or health-related requirements into the
+                language and reward structures of a person's established interest.
+              </p>
+
+              <div class="tech-stack" aria-label="Core design principles">
+                <span class="tech-pill">Age appropriate</span>
+                <span class="tech-pill">Dignity first</span>
+                <span class="tech-pill">Emotionally relevant</span>
+                <span class="tech-pill">Non-clinical</span>
+              </div>
+            </div>
+
+            <div class="editorial-grid__media">
+              <div class="image-frame image-frame--glow">
+                <img
+                  src="images/liam_translation.png"
+                  alt="Passion-to-utility translation diagram showing how daily tasks, medication, chores, health events, progress and rewards become football-themed Match Day concepts."
+                  data-lightbox
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="pull-quote">
+            <blockquote>
+              The product model was built around the user, rather than fitting the user
+              into a pre-existing product model.
+            </blockquote>
+          </div>
+
+          <div class="translation-list" aria-label="Football translation examples">
+            <div class="translation-row">
+              <div class="translation-row__before">Daily routines and hygiene</div>
+              <div class="translation-row__arrow" aria-hidden="true">→</div>
+              <div class="translation-row__after">Match Training</div>
+            </div>
+
+            <div class="translation-row">
+              <div class="translation-row__before">Medication management</div>
+              <div class="translation-row__arrow" aria-hidden="true">→</div>
+              <div class="translation-row__after">Training Supplements</div>
+            </div>
+
+            <div class="translation-row">
+              <div class="translation-row__before">Household chores</div>
+              <div class="translation-row__arrow" aria-hidden="true">→</div>
+              <div class="translation-row__after">Extra Time</div>
+            </div>
+
+            <div class="translation-row">
+              <div class="translation-row__before">Seizure logging</div>
+              <div class="translation-row__arrow" aria-hidden="true">→</div>
+              <div class="translation-row__after">Red Cards</div>
+            </div>
+
+            <div class="translation-row">
+              <div class="translation-row__before">Points and progress</div>
+              <div class="translation-row__arrow" aria-hidden="true">→</div>
+              <div class="translation-row__after">Performance Stats and Transfer Budget</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--light" id="features">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-heading__eyebrow">Functional layers</span>
+            <h2>One platform, several parts of daily life</h2>
+            <p>
+              Each layer supports a different part of Liam's day while keeping the
+              interaction model familiar and consistent.
+            </p>
+          </div>
+
+          <div class="card-grid">
+            <article class="feature-card">
+              <div class="feature-card__number">1</div>
+              <h3>Independence Engine</h3>
+              <p>
+                Large football-themed cards organise hygiene, routines and household
+                tasks by time of day, with simple taps, instant points and clear feedback.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-card__number">2</div>
+              <h3>Health and seizure layer</h3>
+              <p>
+                Red Card logging provides a quick, low-friction way to record seizure
+                counts and preserve a reliable history for future clinical conversations.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-card__number">3</div>
+              <h3>Match Day engagement</h3>
+              <p>
+                Live fixtures, points, trophies, league form and manager-style Team Talk
+                messages keep the platform connected to Liam's actual football interests.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-card__number">4</div>
+              <h3>Calendar and scheduling</h3>
+              <p>
+                Google Calendar events surface appointments, football sessions, social
+                activities and college commitments inside the same daily interface.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-card__number">5</div>
+              <h3>Weather and preparation</h3>
+              <p>
+                Live conditions support practical self-care decisions such as what to
+                wear, what to take and how to prepare for activities outside the home.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-card__number">6</div>
+              <h3>Rewards and progress</h3>
+              <p>
+                Consistency is reflected through form, streaks, trophies and a Transfer
+                Budget that links daily effort with meaningful rewards.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--white" id="architecture">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-heading__eyebrow">Technical architecture</span>
+            <h2>Pragmatic, transparent and maintainable</h2>
+            <p>
+              The architecture deliberately favours low operational overhead,
+              user-owned data and familiar tools over unnecessary infrastructure.
+            </p>
+          </div>
+
+          <div class="image-frame image-frame--wide image-frame--glow">
+            <img
+              src="images/liam_technical.png"
+              alt="Technical architecture diagram for Liam's Match Day showing the React PWA, Google Apps Script backend, Google Sheets ledger, carer visibility and external integrations."
+              data-lightbox
+            >
+          </div>
+
+          <div class="editorial-grid" style="margin-top: 4rem;">
+            <div class="editorial-grid__content">
+              <h2>Google Sheets as an empathetic database</h2>
+
+              <p>
+                Google Sheets was selected because it gives family members and carers a
+                familiar, transparent ledger without requiring a separate administrative
+                portal. It is not simply a cost-saving shortcut. It is an architectural
+                decision shaped around the humans who need to maintain the system.
+              </p>
+
+              <p>
+                Google Apps Script handles the data operations between the Progressive
+                Web App and the underlying sheets, while Google Calendar supplies
+                appointments and scheduled events.
+              </p>
+
+              <div class="tech-stack" aria-label="Technology stack">
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">Vite</span>
+                <span class="tech-pill">Tailwind CSS</span>
+                <span class="tech-pill">Zustand</span>
+                <span class="tech-pill">Google Apps Script</span>
+                <span class="tech-pill">Google Sheets</span>
+                <span class="tech-pill">Google Calendar</span>
+                <span class="tech-pill">API-Football</span>
+                <span class="tech-pill">OpenWeatherMap</span>
+              </div>
+            </div>
+
+            <div class="editorial-grid__media">
+              <div class="table-wrapper">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Component</th>
+                      <th>Purpose</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>React, TypeScript and Vite</td>
+                      <td>Fast, component-based user interface and installable PWA.</td>
+                    </tr>
+                    <tr>
+                      <td>Zustand and local storage</td>
+                      <td>Local state and resilience during temporary connectivity loss.</td>
+                    </tr>
+                    <tr>
+                      <td>Google Apps Script</td>
+                      <td>Serverless data operations, validation and integrations.</td>
+                    </tr>
+                    <tr>
+                      <td>Google Sheets</td>
+                      <td>User-owned operational ledger for tasks, health, points and settings.</td>
+                    </tr>
+                    <tr>
+                      <td>Google Calendar</td>
+                      <td>Appointments, sessions, college events and social activities.</td>
+                    </tr>
+                    <tr>
+                      <td>External APIs</td>
+                      <td>Football fixtures and live weather information.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--navy" id="accessibility">
+        <div class="container">
+          <div class="editorial-grid editorial-grid--reverse">
+            <div class="editorial-grid__media">
+              <div class="image-frame image-frame--glow">
+                <img
+                  src="images/designed_liam.png"
+                  alt="Accessibility-first design infographic showing Liam's Match Day interface with large touch targets, simple interactions, immediate feedback, forgiving controls and reduced cognitive load."
+                  data-lightbox
+                >
+              </div>
+            </div>
+
+            <div class="editorial-grid__content">
+              <span class="section-heading__eyebrow">Accessibility-first design</span>
+              <h2>Designed around the person</h2>
+
+              <p>
+                Accessibility is treated as an interaction and architecture problem, not
+                a checklist added after the interface was finished. The design responds
+                directly to Liam's cognitive profile and right-sided hemiplegia.
+              </p>
+
+              <ul>
+                <li>Large touch targets support limited motor precision.</li>
+                <li>Simple tap interactions minimise typing and navigation effort.</li>
+                <li>Immediate visual feedback confirms every action.</li>
+                <li>Undo options make accidental interactions easy to correct.</li>
+                <li>High-contrast sections support visual scanning.</li>
+                <li>A flat structure keeps key actions close to the surface.</li>
+              </ul>
+
+              <div class="callout callout--gold">
+                <span class="callout__label">Accessibility principle</span>
+                <p>
+                  A forgiving interface reduces the cost of mistakes. It supports
+                  confidence instead of punishing imperfect interaction.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--white" id="autonomy">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-heading__eyebrow">Dignity and autonomy</span>
+            <h2>Visibility without surveillance</h2>
+            <p>
+              The system gives carers the information they need without requiring them
+              to take over Liam's device or digital space.
+            </p>
+          </div>
+
+          <div class="image-frame image-frame--wide image-frame--glow">
+            <img
+              src="images/shared_support.png"
+              alt="Shared support diagram showing Liam using his own device and Google account while carers receive relevant updates through a shared Google Sheets ledger."
+              data-lightbox
+            >
+          </div>
+
+          <div class="article" style="margin-top: 3rem;">
+            <p class="lead">
+              Liam remains the primary actor in his own system. His account, his device,
+              his data and his routines remain centred throughout the architecture.
+            </p>
+
+            <p>
+              Carers can review task completion, points, appointments and health trends
+              from their own devices through shared access. They do not need to borrow
+              Liam's phone, look over his shoulder or become the sole keeper of his
+              information.
+            </p>
+
+            <p>
+              This creates a practical balance between independence and support. The
+              architecture preserves adult autonomy while keeping vital information
+              available when it is genuinely needed.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--light" id="research">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-heading__eyebrow">Market context</span>
+            <h2>Where Liam's Match Day fits</h2>
+            <p>
+              Research into assistive technology found an active market of visual
+              planners, caregiver-supported tools and gamified habit trackers, but few
+              products combine these approaches through deeply personalised,
+              passion-led design.
+            </p>
+          </div>
+
+          <div class="positioning-grid">
+            <article class="positioning-card">
+              <h3>Clinical schedule tools</h3>
+              <p>
+                Specialist products can provide strong visual structure and caregiver
+                support, but often retain a formal or service-led interaction model.
+              </p>
+            </article>
+
+            <article class="positioning-card positioning-card--featured">
+              <h3>Liam's Match Day</h3>
+              <p>
+                A bespoke system combining visual scheduling, health tracking, caregiver
+                visibility, live sports data and a fully personalised football metaphor.
+              </p>
+            </article>
+
+            <article class="positioning-card">
+              <h3>Generic gamified apps</h3>
+              <p>
+                Products such as fantasy trackers or virtual pets make routines more
+                engaging, but the theme and interaction world are defined by the product.
+              </p>
+            </article>
+          </div>
+
+          <div class="article" style="margin-top: 4rem;">
+            <h2>The transferable innovation</h2>
+
+            <p>
+              Football is the implementation, not the limit of the idea. The same
+              architecture could be built around music, gaming, trains, animals, art,
+              motorsport or any other meaningful interest.
+            </p>
+
+            <p>
+              The reusable method is to identify the world that already matters to the
+              person, then translate routines, progress, feedback and support into that
+              world without compromising dignity or safety.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--green" id="impact">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-heading__eyebrow">Project impact</span>
+            <h2>Independence through design</h2>
+            <p>
+              Liam's Match Day demonstrates how personalised architecture can make
+              support tools feel less like work and more like something worth returning to.
+            </p>
+          </div>
+
+          <div class="outcome-grid">
+            <div class="outcome">
+              <span class="outcome__value">Personal</span>
+              <span class="outcome__label">
+                Built around Liam's actual interests, identity and support needs.
+              </span>
+            </div>
+
+            <div class="outcome">
+              <span class="outcome__value">Practical</span>
+              <span class="outcome__label">
+                Uses low-cost, maintainable tools that family and carers can understand.
+              </span>
+            </div>
+
+            <div class="outcome">
+              <span class="outcome__value">Dignified</span>
+              <span class="outcome__label">
+                Supports visibility and safety without turning independence into surveillance.
+              </span>
+            </div>
+          </div>
+
+          <div class="pull-quote">
+            <blockquote>
+              When technology is designed around what a person loves rather than what
+              they lack, the relationship with the tool can change completely.
+            </blockquote>
+          </div>
+
+          <div class="text-centre">
+            <a class="button button--primary" href="https://github.com/nicola-empower/liams-match-day">
+              Explore the repository
+            </a>
+            <button class="button button--secondary" type="button" data-share-page>
+              Share this case study
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">Liam's Match Day</div>
+          <p class="footer-note">
+            A public case study by Nicola Berry. The application code and private
+            operational data are not included in this repository.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://github.com/nicola-empower/liams-match-day">GitHub</a>
+          <a href="https://nicolaberry.uk">Portfolio</a>
+          <a href="#top">Back to top</a>
+        </div>
+      </div>
+
+      <div class="container" style="margin-top: 2rem;">
+        <small>&copy; <span data-current-year></span> Nicola Berry.</small>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
