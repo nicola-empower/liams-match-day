@@ -927,9 +927,14 @@ a:hover {
 }
 
 .callout--gold {
+  color: var(--colour-navy-950);
   background: var(--colour-gold-100);
   border-color: rgba(244, 180, 0, 0.28);
   border-left-color: var(--colour-gold-500);
+}
+
+.callout--gold p {
+  color: var(--colour-navy-950);
 }
 
 .callout--red {
