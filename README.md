@@ -1,4 +1,4 @@
-<img width="2326" height="942" alt="image" src="https://github.com/user-attachments/assets/7bc28d25-22c3-4817-8ea7-c9f331d16a18" />
+<img src="docs/images/liam_banner.png" width="100%" alt="Liam's Match Day banner">
 
 # Liam’s Match Day
 
@@ -345,12 +345,9 @@ src/
 
 <p align="center">   <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=6&color=E91E63" /> </p>
 
-<img width="2780" height="1536" alt="image" src="https://github.com/user-attachments/assets/7f0c8b4b-3c85-43d7-a981-b19f4f2eb2c5" />
+<img src="docs/images/liam_ui.png" width="100%" alt="Liam's Match Day user interface">
 
-<img width="2780" height="1536" alt="image" src="https://github.com/user-attachments/assets/89d67e50-9646-419b-a866-f24379c718be" />
-
-<img width="2780" height="1536" alt="image" src="https://github.com/user-attachments/assets/3d252863-a800-4835-bd6b-ca7357a149f0" />
-
+<p align="center">   <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=6&color=E91E63" /> </p>
 
 ## Portfolio Value
 
